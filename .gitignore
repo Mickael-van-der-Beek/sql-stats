@@ -1,0 +1,22 @@
+# Created by http://www.gitignore.io
+
+### Dot files ###
+.*
+
+### Git ###
+!/.gitignore
+!/.gitmodules
+
+### Logs ###
+logs
+*.log
+
+### Runtime data ###
+pids
+*.pid
+*.seed
+
+### NPM dependency directories ###
+node_modules
+
+bin

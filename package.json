@@ -1,0 +1,41 @@
+{
+	"name": "sql-stats",
+	"private": true,
+	"version": "0.0.1",
+	"description": "Displays statistics about field values in a relational database (SQL).",
+	"main": "./lib/index.js",
+	"engines": {
+		"node": "~4.2.0"
+	},
+	"scripts": {
+		"security": "snyk wizard",
+		"lint": "semistandard --verbose | snazzy",
+		"test": "mocha --recursive test/",
+		"ci": "npm run security && npm run lint && npm runt test"
+	},
+	"dependencies": {
+		"bluebird": "~3.3.4",
+		"colog": "~1.0.4",
+		"knex": "~0.10.0",
+		"minimist": "~1.2.0",
+		"pg": "~4.5.2"
+	},
+	"devDependencies": {
+		"snyk": "~1.13.2",
+		"snazzy": "~3.0.0",
+		"semistandard": "~7.0.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Mickael-van-der-Beek/sql-stats"
+	},
+	"author": "Mickael van der Beek (https://github.com/Mickael-van-der-Beek)",
+	"bugs": {
+		"url": "https://github.com/Mickael-van-der-Beek/sql-stats/issues"
+	},
+	"homepage": "https://github.com/Mickael-van-der-Beek/sql-stats",
+	"semistandard": {
+		"parser": "babel-eslint",
+		"ignore": []
+	}
+}
