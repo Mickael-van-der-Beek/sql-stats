@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.1",
 	"description": "Displays statistics about field values in a relational database (SQL).",
-	"main": "./lib/index.js",
+	"main": "./lib/sql-stats.js",
 	"engines": {
 		"node": "~4.2.0"
 	},
